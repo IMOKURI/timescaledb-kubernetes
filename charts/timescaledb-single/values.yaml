@@ -141,6 +141,7 @@ patroni:
   postgresql:
     basebackup:
     - waldir: "/var/lib/postgresql/wal/pg_wal"
+    pgbackrest: {}
     callbacks: {}
     authentication:
       replication:
